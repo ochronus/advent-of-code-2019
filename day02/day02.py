@@ -16,18 +16,18 @@ def simulate(noun, verb, orig_instructions):
         cur_i = instructions[ip]
         if cur_i == 99:
             break
-        if cur_i == 1:
-            pos1 = instructions[ip+1]
-            pos2 = instructions[ip+2]
-            res_pos = instructions[ip+3]
-            instructions[res_pos] = instructions[pos1] + instructions[pos2]
-        if cur_i == 2:
-            pos1 = instructions[ip+1]
-            pos2 = instructions[ip+2]
-            res_pos = instructions[ip+3]
-            instructions[res_pos] = instructions[pos1] * instructions[pos2]
         if cur_i != 1 and cur_i != 2:
             print("I'm at ", ip, "and encountered a wrong instruction: ", cur_i)
+            
+        pos1 = instructions[ip+1]
+        pos2 = instructions[ip+2]
+        res_pos = instructions[ip+3]
+
+        if cur_i == 1:
+            instructions[res_pos] = instructions[pos1] + instructions[pos2]
+        if cur_i == 2:
+            instructions[res_pos] = instructions[pos1] * instructions[pos2]
+
         ip += 4
 
     return(instructions[0])
