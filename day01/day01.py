@@ -6,8 +6,8 @@ def part1(data):
 
 
 def fuels(mass):
-    while (mass := mass2fuel(mass)) > 0:
-        yield mass
+    while (fuel := mass2fuel(mass)) > 0:
+        yield fuel
 
 def part2(data):
     return sum(mass for datum in data for mass in fuels(datum))
