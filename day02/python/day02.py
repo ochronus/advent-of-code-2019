@@ -1,6 +1,6 @@
 import copy
 
-with open('input.txt', 'r') as file:
+with open('../input.txt', 'r') as file:
     data = file.read().replace('\n', '')
 
 instructions = [int(x) for x in data.split(',')]

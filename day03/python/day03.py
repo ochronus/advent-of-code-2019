@@ -1,4 +1,4 @@
-WIRE1, WIRE2 = [wire.split(',') for wire in open('input.txt').read().split()]
+WIRE1, WIRE2 = [wire.split(',') for wire in open('../input.txt').read().split()]
 
 
 def follow_wire(wire):

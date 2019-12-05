@@ -42,7 +42,7 @@ func fuel(i int) int {
 }
 
 func main() {
-	file, err := os.Open("input.txt")
+	file, err := os.Open("../input.txt")
 	if err != nil {
 		panic("gimme input!")
 	}

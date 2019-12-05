@@ -13,7 +13,7 @@ def part2(data):
     return sum(mass for datum in data for mass in fuels(datum))
 
 
-with open("input.txt") as f:
+with open("../input.txt") as f:
     data = [int(l) for l in f.read().splitlines()]
 
 print(part1(data))
