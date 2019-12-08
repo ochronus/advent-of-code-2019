@@ -1,0 +1,54 @@
+# trying to figure out a closed formula
+
+
+11XXXX
+
+22XXXX
+
+33XXXX
+
+44XXXX
+
+55XXXX
+
+
+66XXXX
+    667XXX
+        6677XX
+            667777
+            667778
+            667779
+            667788
+            667789
+            667799
+        6678XX
+            667888
+            667889
+            667899
+        6679XX
+            667999
+    668XXX
+        6688XX
+        6689XX
+    669XXX
+        669999
+
+77XXXX
+    778888
+    778889
+    778899
+    779999
+
+88XXXX
+    889999
+
+------
+XX11XX
+XX22XX
+XX33XX
+XX44XX
+XX55XX
+XX66XX
+XX77XX
+XX88XX
+XX99XX
